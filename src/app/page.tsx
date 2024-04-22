@@ -1,9 +1,9 @@
-import Image from "next/image";
+import App from "./todoList/todo";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>salom</h1>
+      <App/>
     </main>
   );
 }
